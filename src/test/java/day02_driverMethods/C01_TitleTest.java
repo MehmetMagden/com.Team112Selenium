@@ -15,6 +15,8 @@ public class C01_TitleTest {
 
         String expectedTitle = "Amazon";
 
+
+        // to get the title of the page
         String actualTitle = driver.getTitle();
         System.out.println(actualTitle);
 

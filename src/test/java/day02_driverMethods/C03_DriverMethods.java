@@ -14,6 +14,7 @@ public class C03_DriverMethods {
 
         driver.manage().window().maximize();
 
+        // to get all html codes of the page
         String pageSource = driver.getPageSource();
         String expectedWord = "accordion";
 
